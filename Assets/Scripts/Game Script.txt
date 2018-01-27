@@ -1,0 +1,47 @@
+Starting Blurb: You are hereby requested to investigate an artifact of unknown origin uncovered at Facility NA404. Your talents were recognized by the board as ideal for this investigation. Your compensation will be determined upon your return. Thank you for your consideration.
+
+Station System: Welcome to Facility NA404. Please input your valid company identification name to proceed.
+
+[Name Enter Screen]
+
+Station System: Thank you. For your safety, please secure your environment suit. Any injury or fatality resulting from user error is not the responsibility of Seg Fault Corp. Have a safe and happy stay!
+
+[Exiting ship cutscene. See maintenance machines outside switch to red lights]
+
+Chelsea: You’re the… “specialist” the folks up top sent? Alrighty then, follow me.
+
+[Begin movement tutorial. Player gains full control]
+
+Chelsea: Yeah, so the clankers dug up a… thing. Not sure what it is. We poked it, hit it, caressed it… Nothing. It just sits there. We were about to just jettison it when the higher ups told us they were sending a specialist to check it out and to NOT jettison the stupid rock.
+
+[Arrive at stage 1. Player loses control]
+
+Chelsea: So yeah, that’s what apparently is going on. Through here is final product staging. Your quarters will be on the other side of the floor, next to mine. I’ll radio ahead once we get to assembly.
+
+[Door opens. Enter stage 1]
+
+Chelsea: So, don’t step over the yellow lines, watch for stuff overhead, and try not to get in clanker’s wa-
+
+[Chelsea is killed. Player gains full control]
+
+Chelsea’s Journal
+
+Latest Entry: So, the executives decided to keep the rock until they could figure out how much they could sell it for. They’re apparently sending an expert to check it out within the next 2 days. I’m no expert, but I can tell how much this piece of [redacted] is worth. Nothing. Zilch. Nada. Stupid thing is just sitting in the mining shaft, blocking the drillers and laughing at me. Okay, not actually laughing, but I can just picture the thing laughing at me every time I see the others in the mess. Can’t wait for this expert to tell us it is just a fancy rock and we can throw it out the airlock.
+
+Noah’s Journal
+
+Latest Entry: Still can’t believe Chelsea actually caressed the thing the clankers dug up for hundred creds! She even whispered to it for another hundred! I feel so stupid now forgetting to record that. Oh well, one of the clankers probably recorded it, so when we do the next preventative maintenance I’ll pull their logs and look for that sweet, sweet moment. Joking aside, that thing is creepy as [redacted]. Definitely not natural, and definitely not made by any human I know of. Looks like it’s, I don’t know, waiting for something. Dunno what it is, but that’s the vibe I’m getting from it.
+
+LeJon’s Journal
+
+Latest Entry: So, I personally can’t wait for that expert to get here. The object the drillers dug up has been giving me a serious case of the heebee jeebies. I always have been able to hear things others couldn’t, but I chalked it up to having sharper hearing. But [redacted], now I’ve been having some scary as [redacted] dreams since it got uncovered. Same one, too. I see a bunch of people floating around in the vacuum of space. I think they’re dead. But the bodies are like a trail that goes back to headquarters on Luna and then all the way back to Earth. Never had these dreams before the thing got dug up. Spoke to others on what they wanted to do with it, and I’m with Chelsea on this one. Throw it out the airlock. Not cause it’s just a worthless rock, but because it’s [redacted] evil.
+
+Jon’s Journal
+
+Latest Entry: Noah and LeJon have been a bit on edge since the drillers dug up that thing. I personally don’t feel anything about it, but I will side with Noah at least and say it is indeed creepy. LeJon wants to jettison it, but I get the feeling that it isn’t cause he thinks it’s a waste of space like Chelsea whines about constantly. He keeps asking Chelsea to switch stations from Processing to Final Product Staging every day, even though she tells him no every time. I think he’s scared of the thing. I might have to keep an eye on him, just in case. If he snaps, it’s at least two days until someone else can arrive to assist. And that’s assuming we get a chance to call for help. Let’s hope it doesn’t come to that.
+
+Danny’s Journal
+
+Latest Entry: I don’t know why everyone’s getting all up in arms about this whole thing. Okay, maybe Jon and Noah aren’t freaking out over it for whatever reason, but the darn thing is clearly on their mind all the [redacted] time. Everyone just needs to calm the [redacted] down and wait for the [redacted] expert. [redacted], I’m just getting frustrated enough to curse on my log. Guess I can’t wait for the specialist to get here as much as everyone else, if only it will shut everyone the [redacted] up and we can get some [redacted] work done.
+
+
