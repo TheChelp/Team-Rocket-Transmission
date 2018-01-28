@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TopDownPlayer : MonoBehaviour {
 
@@ -27,7 +28,7 @@ public class TopDownPlayer : MonoBehaviour {
 
 		if (GameOver) {
 			if (Input.GetKeyDown (KeyCode.R)) {
-				Application.LoadLevel (Application.loadedLevel);
+				SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 			}
 				
 		} else {
