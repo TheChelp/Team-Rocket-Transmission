@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Vuforia;
 
 public class SpriteActions : MonoBehaviour
 {
@@ -39,41 +40,33 @@ public class SpriteActions : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
 	    {
 	        _dy++;
-	        if (FlashLight != null)
-	        {
-	            FlashLight.transform.eulerAngles = new Vector3(-90, _rotationAngles.y, _rotationAngles.z);
-                FlashLight.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + Offset, FlashLight.transform.position.z);
-            }
 	    }
 	    if (Input.GetKey(KeyCode.S))
 	    {
 	        _dy--;
-	        if (FlashLight != null)
-	        {
-	            FlashLight.transform.eulerAngles = new Vector3(90, _rotationAngles.y, _rotationAngles.z);
-                FlashLight.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - Offset, FlashLight.transform.position.z);
-            }
 	    }
 	    if (Input.GetKey(KeyCode.A))
 	    {
 	        _dx--;
-	        if (FlashLight != null)
-	        {
-	            FlashLight.transform.eulerAngles = new Vector3(180, _rotationAngles.y, _rotationAngles.z);
-                FlashLight.transform.position = new Vector3(gameObject.transform.position.x - Offset, gameObject.gameObject.transform.position.y, FlashLight.transform.position.z);
-            }
 	    }
 	    if (Input.GetKey(KeyCode.D))
 	    {
 	        _dx++;
-	        if (FlashLight != null)
-	        {
-	            FlashLight.transform.eulerAngles = new Vector3(0, _rotationAngles.y, _rotationAngles.z);
-                FlashLight.transform.position = new  Vector3(gameObject.transform.position.x + Offset,gameObject.gameObject.transform.position.y, FlashLight.transform.position.z);
-            }
-	        
-
         }
+
+	    if (FlashLight != null)
+	    {
+	        Vector3 d =  Camera.main.ScreenToWorldPoint(Input.mousePosition) - gameObject.transform.position; 
+	        Debug.Log("d = " + d);
+
+            Vector2 dist = new Vector2(d.x,d.y);
+            dist.Normalize();
+	        float angle = Mathf.Rad2Deg * -Mathf.Atan2(dist.y,dist.x);
+            Debug.Log(angle + " Degrees");
+            FlashLight.transform.eulerAngles = new Vector3(angle,90,0);
+
+	    }
+
 	    float velocityX = _dx * Speed;
 	    float velocityY = _dy * Speed;
 
