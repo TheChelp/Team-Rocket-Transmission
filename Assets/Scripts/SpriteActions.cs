@@ -10,6 +10,7 @@ public class SpriteActions : MonoBehaviour
     public  GameObject FlashLight;
     private Vector3 _rotationAngles;
     private Animator _animator;
+    public GameObject wavePrefab;
 
     // Use this for initialization
     void Start () {
@@ -53,15 +54,24 @@ public class SpriteActions : MonoBehaviour
 	    if (FlashLight != null)
 	    {
 	        Vector3 d =  Camera.main.ScreenToWorldPoint(Input.mousePosition) - gameObject.transform.position; 
-	        Debug.Log("d = " + d);
 
             Vector2 dist = new Vector2(d.x,d.y);
             dist.Normalize();
 	        float angle = Mathf.Rad2Deg * -Mathf.Atan2(dist.y,dist.x);
-            Debug.Log(angle + " Degrees");
             FlashLight.transform.eulerAngles = new Vector3(angle,90,0);
 
-	    }
+            if (Input.GetMouseButtonDown(0))
+            {
+                GameObject wave = Instantiate(wavePrefab);
+                wave.name = "Wave";
+                wave.GetComponent<WaveActions>().Velocity = new Vector3(dist.x,dist.y,0);
+                wave.GetComponent<WaveActions>().transform.eulerAngles = new Vector3(0, 0, -angle);
+                wave.GetComponent<WaveActions>().transform.position += new Vector3(gameObject.transform.position.x + 1.5f * dist.x, gameObject.transform.position.y + 1.5f * dist.y,0);
+                wave.GetComponent<WaveActions>().transform.localScale = new Vector3(0.25f,0.25f,0.25f); 
+
+            }
+
+        }
 
 	    float velocityX = _dx * Speed;
 	    float velocityY = _dy * Speed;
