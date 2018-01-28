@@ -2909,6 +2909,7 @@ GameObject:
   - component: {fileID: 2047053832}
   - component: {fileID: 2047053833}
   - component: {fileID: 2047053834}
+  - component: {fileID: 2047053835}
   m_Layer: 0
   m_Name: Person
   m_TagString: Untagged
@@ -2987,6 +2988,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 0.25
   Offset: 0
+  FlashLight: {fileID: 2078859835}
 --- !u!108 &2047053834
 Light:
   m_ObjectHideFlags: 0
@@ -3023,6 +3025,23 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!95 &2047053835
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2047053830}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 27299ea708bdd3345aba04e1c789b001, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &2078859835
 GameObject:
   m_ObjectHideFlags: 0
