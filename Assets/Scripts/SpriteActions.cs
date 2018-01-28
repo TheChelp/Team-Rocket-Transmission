@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-=======
 ﻿﻿using UnityEngine;
->>>>>>> 94ff81ba42c89d667ed630b25ea9faff5158dc64
 
 public class SpriteActions : MonoBehaviour
 {
