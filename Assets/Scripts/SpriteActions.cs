@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-=======
-﻿﻿using UnityEngine;
->>>>>>> 94ff81ba42c89d667ed630b25ea9faff5158dc64
+﻿﻿using System;
+ using System.Collections;
+ using UnityEngine;
 
 public class SpriteActions : MonoBehaviour
 {
@@ -17,58 +12,107 @@ public class SpriteActions : MonoBehaviour
     public  GameObject FlashLight;
     private Vector3 _rotationAngles;
     private Animator _animator;
+    public GameObject wavePrefab;
+    public bool autoscript;
 
     // Use this for initialization
     void Start () {
         _rotationAngles = new Vector3();
         _animator = gameObject.GetComponent<Animator>();
 
-        if (FlashLight != null)
-            _rotationAngles = FlashLight.transform.eulerAngles;
 
-        if (Speed == 0.0f)
+        if (autoscript)
         {
-            Debug.Log("<color=yellow> Warning: Speed is zero. Character will not move </color>");
+            StartCoroutine(tutorialScript());
         }
+        else
+        {
+            if (FlashLight != null)
+                _rotationAngles = FlashLight.transform.eulerAngles;
 
-        if (FlashLight == null)
-        {
-            Debug.Log("Flashlight not found :(");
+            if (Speed == 0.0f)
+            {
+                Debug.Log("<color=yellow> Warning: Speed is zero. Character will not move </color>");
+            }
+
+            if (FlashLight == null)
+            {
+                Debug.Log("Flashlight not found :(");
+            }
         }
+        
     }
-	
+
+    public IEnumerator tutorialScript()
+    {
+        right = true;
+
+        yield return null;
+    }
 	// Update is called once per frame
+    private bool up, down, right, left;
 	void Update ()
 	{
-        if (Input.GetKey(KeyCode.W))
+	    if (!autoscript)
 	    {
-	        _dy++;
+	        if (Input.GetKey(KeyCode.W) )
+	        {
+	            _dy++;
+	        }
+	        if (Input.GetKey(KeyCode.S) )
+	        {
+	            _dy--;
+	        }
+	        if (Input.GetKey(KeyCode.A))
+	        {
+	            _dx--;
+	        }
+	        if (Input.GetKey(KeyCode.D))
+	        {
+	            _dx++;
+	        }
 	    }
-	    if (Input.GetKey(KeyCode.S))
+	    else
 	    {
-	        _dy--;
-	    }
-	    if (Input.GetKey(KeyCode.A))
-	    {
-	        _dx--;
-	    }
-	    if (Input.GetKey(KeyCode.D))
-	    {
-	        _dx++;
+            if (up)
+            {
+                _dy++;
+            }
+            if (down)
+            {
+                _dy--;
+            }
+            if (left)
+            {
+                _dx--;
+            }
+            if (right)
+            {
+                _dx++;
+            }
         }
 
-	    if (FlashLight != null)
+	    if (!autoscript && FlashLight != null)
 	    {
 	        Vector3 d =  Camera.main.ScreenToWorldPoint(Input.mousePosition) - gameObject.transform.position; 
-	        Debug.Log("d = " + d);
 
             Vector2 dist = new Vector2(d.x,d.y);
             dist.Normalize();
 	        float angle = Mathf.Rad2Deg * -Mathf.Atan2(dist.y,dist.x);
-            Debug.Log(angle + " Degrees");
             FlashLight.transform.eulerAngles = new Vector3(angle,90,0);
 
-	    }
+            if (Input.GetMouseButtonDown(0))
+            {
+                GameObject wave = Instantiate(wavePrefab);
+                wave.name = "Wave";
+                wave.GetComponent<WaveActions>().Velocity = new Vector3(dist.x,dist.y,0);
+                wave.GetComponent<WaveActions>().transform.eulerAngles = new Vector3(0, 0, -angle);
+                wave.GetComponent<WaveActions>().transform.position += new Vector3(gameObject.transform.position.x + 1.5f * dist.x, gameObject.transform.position.y + 1.5f * dist.y,0);
+                wave.GetComponent<WaveActions>().transform.localScale = new Vector3(0.25f,0.25f,0.25f); 
+
+            }
+
+        }
 
 	    float velocityX = _dx * Speed;
 	    float velocityY = _dy * Speed;
