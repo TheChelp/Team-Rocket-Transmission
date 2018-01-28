@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using Vuforia;
+﻿using UnityEngine;
 
 public class SpriteActions : MonoBehaviour
 {
