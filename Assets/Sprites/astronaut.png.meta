@@ -1,0 +1,1654 @@
+fileFormatVersion: 2
+guid: 92540762995461745879ad9d45c77ba8
+timeCreated: 1517110587
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: astronaut_0
+    21300002: astronaut_1
+    21300004: astronaut_2
+    21300006: astronaut_3
+    21300008: astronaut_4
+    21300010: astronaut_5
+    21300012: astronaut_6
+    21300014: astronaut_7
+    21300016: astronaut_8
+    21300018: astronaut_9
+    21300020: astronaut_10
+    21300022: astronaut_11
+    21300024: astronaut_12
+    21300026: astronaut_13
+    21300028: astronaut_14
+    21300030: astronaut_15
+    21300032: astronaut_16
+    21300034: astronaut_17
+    21300036: astronaut_18
+    21300038: astronaut_19
+    21300040: astronaut_20
+    21300042: astronaut_21
+    21300044: astronaut_22
+    21300046: astronaut_23
+    21300048: astronaut_24
+    21300050: astronaut_25
+    21300052: astronaut_26
+    21300054: astronaut_27
+    21300056: astronaut_28
+    21300058: astronaut_29
+    21300060: astronaut_30
+    21300062: astronaut_31
+    21300064: astronaut_32
+    21300066: astronaut_33
+    21300068: astronaut_34
+    21300070: astronaut_35
+    21300072: astronaut_36
+    21300074: astronaut_37
+    21300076: astronaut_38
+    21300078: astronaut_39
+    21300080: astronaut_40
+    21300082: astronaut_41
+    21300084: astronaut_42
+    21300086: astronaut_43
+    21300088: astronaut_44
+    21300090: astronaut_45
+    21300092: astronaut_46
+    21300094: astronaut_47
+    21300096: astronaut_48
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: astronaut_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 260
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 260
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 260
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 260
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 260
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_5
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 260
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_6
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 260
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_7
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 260
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_8
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 260
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 208
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_10
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 208
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_11
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 208
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_12
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 208
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 208
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_14
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 208
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_15
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 208
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_16
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 208
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_17
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 208
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 156
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_19
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 156
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_20
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 156
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_21
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 156
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 156
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_23
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 156
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_24
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 156
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_25
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 156
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_26
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 156
+        width: 47.444443
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_27
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 112
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_28
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 112
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_29
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 112
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_31
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 112
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_32
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 112
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_33
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 112
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_34
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 112
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_35
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 66
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_36
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 66
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_37
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 66
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_38
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 66
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_39
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 66
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_40
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 66
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_41
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 66
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_42
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 15
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_43
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 14
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 14
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_45
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 14
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_46
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 14
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_47
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 14
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: astronaut_48
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 14
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline:
+    - - {x: -104.5, y: -95}
+      - {x: -109.5, y: -99}
+      - {x: -109.5, y: -124}
+      - {x: -108.5, y: -134}
+      - {x: -86.5, y: -134}
+      - {x: -82.5, y: -133}
+      - {x: -82.5, y: -101}
+      - {x: -86.5, y: -95}
+    - - {x: -56.5, y: -95}
+      - {x: -61.5, y: -100}
+      - {x: -61.5, y: -119}
+      - {x: -59.5, y: -133}
+      - {x: -54.5, y: -134}
+      - {x: -37.5, y: -134}
+      - {x: -28.5, y: -115}
+      - {x: -28.5, y: -105}
+      - {x: -38.5, y: -95}
+    - - {x: -13.5, y: -95}
+      - {x: -13.5, y: -134}
+      - {x: 13.5, y: -134}
+      - {x: 13.5, y: -101}
+      - {x: 9.5, y: -95}
+    - - {x: 34.5, y: -95}
+      - {x: 34.5, y: -134}
+      - {x: 65.5, y: -134}
+      - {x: 65.5, y: -95}
+    - - {x: 104.5, y: -95}
+      - {x: 87.5, y: -95}
+      - {x: 82.5, y: -100}
+      - {x: 82.5, y: -123}
+      - {x: 83.5, y: -134}
+      - {x: 105.5, y: -134}
+      - {x: 109.5, y: -132}
+      - {x: 109.5, y: -102}
+    - - {x: 152.5, y: -95}
+      - {x: 135.5, y: -95}
+      - {x: 130.5, y: -100}
+      - {x: 130.5, y: -123}
+      - {x: 131.5, y: -134}
+      - {x: 153.5, y: -134}
+      - {x: 157.5, y: -132}
+      - {x: 157.5, y: -102}
+    - - {x: 204.5, y: -108}
+      - {x: 172.5, y: -108}
+      - {x: 172.5, y: -134}
+      - {x: 206.5, y: -134}
+      - {x: 211.5, y: -128}
+      - {x: 211.5, y: -113}
+    - - {x: -104.5, y: -47}
+      - {x: -108.5, y: -50}
+      - {x: -108.5, y: -81}
+      - {x: -107.5, y: -86}
+      - {x: -85.5, y: -86}
+      - {x: -81.5, y: -85}
+      - {x: -81.5, y: -53}
+      - {x: -86.5, y: -47}
+    - - {x: -34.5, y: -47}
+      - {x: -54.5, y: -47}
+      - {x: -66.5, y: -52}
+      - {x: -66.5, y: -71}
+      - {x: -60.5, y: -85}
+      - {x: -55.5, y: -86}
+      - {x: -35.5, y: -86}
+      - {x: -33.5, y: -85}
+      - {x: -33.5, y: -48}
+    - - {x: -7.5, y: -47}
+      - {x: -13.5, y: -50}
+      - {x: -13.5, y: -78}
+      - {x: -11.5, y: -86}
+      - {x: 10.5, y: -86}
+      - {x: 14.5, y: -85}
+      - {x: 14.5, y: -50}
+      - {x: 12.5, y: -47}
+    - - {x: 31.5, y: -81}
+      - {x: 34.5, y: -86}
+      - {x: 62.5, y: -86}
+      - {x: 62.5, y: -52}
+      - {x: 59.5, y: -47}
+      - {x: 41.5, y: -47}
+      - {x: 31.5, y: -52}
+    - - {x: 83.5, y: -47}
+      - {x: 83.5, y: -80}
+      - {x: 84.5, y: -86}
+      - {x: 108.5, y: -86}
+      - {x: 110.5, y: -84}
+      - {x: 110.5, y: -48}
+      - {x: 108.5, y: -47}
+    - - {x: 131.5, y: -47}
+      - {x: 131.5, y: -80}
+      - {x: 132.5, y: -86}
+      - {x: 156.5, y: -86}
+      - {x: 158.5, y: -84}
+      - {x: 158.5, y: -48}
+      - {x: 156.5, y: -47}
+    - - {x: 176.5, y: -60}
+      - {x: 172.5, y: -63}
+      - {x: 172.5, y: -81}
+      - {x: 174.5, y: -86}
+      - {x: 210.5, y: -86}
+      - {x: 211.5, y: -85}
+      - {x: 211.5, y: -61}
+      - {x: 210.5, y: -60}
+    - - {x: -206.5, y: -7}
+      - {x: -206.5, y: -38}
+      - {x: -177.5, y: -38}
+      - {x: -177.5, y: -5}
+      - {x: -185.5, y: 1}
+      - {x: -200.5, y: 1}
+    - - {x: -158.5, y: 1}
+      - {x: -158.5, y: -38}
+      - {x: -134.5, y: -38}
+      - {x: -129.5, y: -37}
+      - {x: -129.5, y: 0}
+      - {x: -133.5, y: 1}
+    - - {x: -104.5, y: 1}
+      - {x: -110.5, y: -2}
+      - {x: -110.5, y: -35}
+      - {x: -107.5, y: -38}
+      - {x: -83.5, y: -38}
+      - {x: -81.5, y: -33}
+      - {x: -81.5, y: -3}
+      - {x: -84.5, y: 1}
+    - - {x: 7.5, y: 1}
+      - {x: -10.5, y: 1}
+      - {x: -13.5, y: -5}
+      - {x: -13.5, y: -33}
+      - {x: -12.5, y: -38}
+      - {x: 13.5, y: -38}
+      - {x: 18.5, y: -29}
+      - {x: 18.5, y: -10}
+      - {x: 16.5, y: -6}
+    - - {x: 39.5, y: 1}
+      - {x: 34.5, y: -3}
+      - {x: 34.5, y: -27}
+      - {x: 35.5, y: -38}
+      - {x: 63.5, y: -38}
+      - {x: 67.5, y: -34}
+      - {x: 67.5, y: -16}
+      - {x: 57.5, y: 1}
+    - - {x: 83.5, y: 1}
+      - {x: 82.5, y: -3}
+      - {x: 82.5, y: -20}
+      - {x: 83.5, y: -35}
+      - {x: 84.5, y: -38}
+      - {x: 113.5, y: -38}
+      - {x: 113.5, y: 0}
+      - {x: 107.5, y: 1}
+    - - {x: 130.5, y: 1}
+      - {x: 130.5, y: -38}
+      - {x: 153.5, y: -38}
+      - {x: 157.5, y: -36}
+      - {x: 157.5, y: -5}
+      - {x: 153.5, y: 1}
+    - - {x: 177.5, y: 2}
+      - {x: 177.5, y: -30}
+      - {x: 178.5, y: -38}
+      - {x: 204.5, y: -38}
+      - {x: 204.5, y: 2}
+    - - {x: -203.5, y: 49}
+      - {x: -206.5, y: 45}
+      - {x: -206.5, y: 10}
+      - {x: -178.5, y: 10}
+      - {x: -178.5, y: 47}
+      - {x: -184.5, y: 49}
+    - - {x: -158.5, y: 49}
+      - {x: -160.5, y: 46}
+      - {x: -160.5, y: 10}
+      - {x: -135.5, y: 10}
+      - {x: -131.5, y: 11}
+      - {x: -131.5, y: 46}
+      - {x: -137.5, y: 49}
+    - - {x: -103.5, y: 50}
+      - {x: -109.5, y: 48}
+      - {x: -109.5, y: 11}
+      - {x: -106.5, y: 10}
+      - {x: -82.5, y: 10}
+      - {x: -81.5, y: 15}
+      - {x: -81.5, y: 48}
+      - {x: -83.5, y: 50}
+    - - {x: -59.5, y: 50}
+      - {x: -61.5, y: 49}
+      - {x: -61.5, y: 17}
+      - {x: -59.5, y: 10}
+      - {x: -35.5, y: 10}
+      - {x: -33.5, y: 16}
+      - {x: -33.5, y: 50}
+    - - {x: 8.5, y: 49}
+      - {x: -7.5, y: 49}
+      - {x: -17.5, y: 37}
+      - {x: -17.5, y: 26}
+      - {x: -10.5, y: 10}
+      - {x: 10.5, y: 10}
+      - {x: 14.5, y: 11}
+      - {x: 14.5, y: 44}
+    - - {x: 41.5, y: 49}
+      - {x: 29.5, y: 43}
+      - {x: 29.5, y: 11}
+      - {x: 30.5, y: 10}
+      - {x: 61.5, y: 10}
+      - {x: 62.5, y: 11}
+      - {x: 62.5, y: 45}
+      - {x: 59.5, y: 49}
+    - - {x: 81.5, y: 49}
+      - {x: 79.5, y: 48}
+      - {x: 79.5, y: 10}
+      - {x: 110.5, y: 10}
+      - {x: 110.5, y: 47}
+      - {x: 105.5, y: 49}
+    - - {x: 137.5, y: 49}
+      - {x: 131.5, y: 45}
+      - {x: 131.5, y: 12}
+      - {x: 132.5, y: 10}
+      - {x: 158.5, y: 10}
+      - {x: 158.5, y: 44}
+      - {x: 153.5, y: 49}
+    - - {x: 183.5, y: 50}
+      - {x: 180.5, y: 47}
+      - {x: 180.5, y: 10}
+      - {x: 206.5, y: 10}
+      - {x: 207.5, y: 13}
+      - {x: 207.5, y: 47}
+      - {x: 200.5, y: 50}
+    - - {x: -204.5, y: 97}
+      - {x: -205.5, y: 95}
+      - {x: -205.5, y: 68}
+      - {x: -204.5, y: 58}
+      - {x: -181.5, y: 58}
+      - {x: -178.5, y: 59}
+      - {x: -178.5, y: 96}
+      - {x: -182.5, y: 97}
+    - - {x: -159.5, y: 97}
+      - {x: -160.5, y: 96}
+      - {x: -160.5, y: 58}
+      - {x: -137.5, y: 58}
+      - {x: -128.5, y: 68}
+      - {x: -128.5, y: 94}
+      - {x: -135.5, y: 97}
+    - - {x: -108.5, y: 99}
+      - {x: -110.5, y: 94}
+      - {x: -110.5, y: 62}
+      - {x: -102.5, y: 58}
+      - {x: -90.5, y: 58}
+      - {x: -82.5, y: 72}
+      - {x: -82.5, y: 97}
+      - {x: -84.5, y: 99}
+    - - {x: -61.5, y: 97}
+      - {x: -65.5, y: 95}
+      - {x: -65.5, y: 61}
+      - {x: -52.5, y: 58}
+      - {x: -37.5, y: 58}
+      - {x: -34.5, y: 60}
+      - {x: -34.5, y: 94}
+      - {x: -35.5, y: 97}
+    - - {x: 125.5, y: 99}
+      - {x: 124.5, y: 95}
+      - {x: 124.5, y: 63}
+      - {x: 132.5, y: 58}
+      - {x: 162.5, y: 58}
+      - {x: 162.5, y: 99}
+    - - {x: 188.5, y: 84}
+      - {x: 176.5, y: 73}
+      - {x: 176.5, y: 62}
+      - {x: 178.5, y: 58}
+      - {x: 199.5, y: 58}
+      - {x: 210.5, y: 59}
+      - {x: 212.5, y: 65}
+      - {x: 212.5, y: 75}
+      - {x: 202.5, y: 84}
+    - - {x: 13.5, y: 95}
+      - {x: 3.5, y: 103}
+      - {x: -9.5, y: 103}
+      - {x: -16.5, y: 99}
+      - {x: -17.5, y: 93}
+      - {x: -17.5, y: 82}
+      - {x: -13.5, y: 72}
+      - {x: 1.5, y: 65}
+      - {x: 14.5, y: 65}
+      - {x: 21.5, y: 74}
+      - {x: 21.5, y: 77}
+      - {x: 19.5, y: 84}
+    - - {x: 87.5, y: 106}
+      - {x: 78.5, y: 102}
+      - {x: 78.5, y: 83}
+      - {x: 79.5, y: 76}
+      - {x: 88.5, y: 65}
+      - {x: 105.5, y: 65}
+      - {x: 112.5, y: 74}
+      - {x: 112.5, y: 88}
+      - {x: 103.5, y: 106}
+    - - {x: 64.5, y: 104}
+      - {x: 35.5, y: 104}
+      - {x: 29.5, y: 92}
+      - {x: 29.5, y: 73}
+      - {x: 31.5, y: 72}
+      - {x: 62.5, y: 72}
+      - {x: 65.5, y: 74}
+      - {x: 65.5, y: 103}
+    - - {x: -204.5, y: 145}
+      - {x: -204.5, y: 112}
+      - {x: -203.5, y: 106}
+      - {x: -177.5, y: 106}
+      - {x: -177.5, y: 144}
+      - {x: -181.5, y: 145}
+    - - {x: -153.5, y: 145}
+      - {x: -159.5, y: 141}
+      - {x: -159.5, y: 110}
+      - {x: -152.5, y: 106}
+      - {x: -128.5, y: 106}
+      - {x: -127.5, y: 108}
+      - {x: -127.5, y: 137}
+      - {x: -131.5, y: 145}
+    - - {x: -104.5, y: 147}
+      - {x: -108.5, y: 145}
+      - {x: -108.5, y: 124}
+      - {x: -101.5, y: 106}
+      - {x: -86.5, y: 106}
+      - {x: -82.5, y: 108}
+      - {x: -80.5, y: 113}
+      - {x: -80.5, y: 138}
+      - {x: -83.5, y: 147}
+    - - {x: -56.5, y: 145}
+      - {x: -60.5, y: 138}
+      - {x: -60.5, y: 117}
+      - {x: -54.5, y: 106}
+      - {x: -37.5, y: 106}
+      - {x: -29.5, y: 107}
+      - {x: -29.5, y: 130}
+      - {x: -36.5, y: 145}
+    - - {x: 130.5, y: 147}
+      - {x: 126.5, y: 136}
+      - {x: 126.5, y: 112}
+      - {x: 128.5, y: 108}
+      - {x: 138.5, y: 106}
+      - {x: 158.5, y: 106}
+      - {x: 164.5, y: 112}
+      - {x: 164.5, y: 145}
+      - {x: 158.5, y: 147}
+    - - {x: 197.5, y: 132}
+      - {x: 175.5, y: 132}
+      - {x: 172.5, y: 129}
+      - {x: 172.5, y: 114}
+      - {x: 179.5, y: 106}
+      - {x: 207.5, y: 106}
+      - {x: 208.5, y: 110}
+      - {x: 208.5, y: 125}
+      - {x: 204.5, y: 130}
+    - - {x: 16.5, y: 151}
+      - {x: 1.5, y: 151}
+      - {x: -2.5, y: 150}
+      - {x: -16.5, y: 138}
+      - {x: -16.5, y: 119}
+      - {x: -14.5, y: 113}
+      - {x: 2.5, y: 113}
+      - {x: 7.5, y: 115}
+      - {x: 22.5, y: 133}
+      - {x: 22.5, y: 144}
+    - - {x: 110.5, y: 153}
+      - {x: 90.5, y: 153}
+      - {x: 79.5, y: 138}
+      - {x: 79.5, y: 117}
+      - {x: 89.5, y: 113}
+      - {x: 104.5, y: 113}
+      - {x: 109.5, y: 118}
+      - {x: 113.5, y: 139}
+      - {x: 113.5, y: 150}
+    - - {x: 56.5, y: 149}
+      - {x: 53.5, y: 152}
+      - {x: 31.5, y: 152}
+      - {x: 30.5, y: 148}
+      - {x: 30.5, y: 125}
+      - {x: 40.5, y: 120}
+      - {x: 62.5, y: 120}
+      - {x: 66.5, y: 126}
+      - {x: 66.5, y: 140}
+      - {x: 65.5, y: 141}
+    physicsShape:
+    - - {x: -104.5, y: -95}
+      - {x: -109.5, y: -99}
+      - {x: -109.5, y: -124}
+      - {x: -108.5, y: -134}
+      - {x: -86.5, y: -134}
+      - {x: -82.5, y: -133}
+      - {x: -82.5, y: -101}
+      - {x: -86.5, y: -95}
+    - - {x: -56.5, y: -95}
+      - {x: -61.5, y: -100}
+      - {x: -61.5, y: -119}
+      - {x: -59.5, y: -133}
+      - {x: -54.5, y: -134}
+      - {x: -37.5, y: -134}
+      - {x: -28.5, y: -115}
+      - {x: -28.5, y: -105}
+      - {x: -38.5, y: -95}
+    - - {x: -8.5, y: -95}
+      - {x: -13.5, y: -100}
+      - {x: -13.5, y: -134}
+      - {x: 13.5, y: -134}
+      - {x: 13.5, y: -101}
+      - {x: 9.5, y: -95}
+    - - {x: 39.5, y: -95}
+      - {x: 34.5, y: -100}
+      - {x: 34.5, y: -133}
+      - {x: 35.5, y: -134}
+      - {x: 65.5, y: -134}
+      - {x: 65.5, y: -99}
+      - {x: 57.5, y: -95}
+    - - {x: 104.5, y: -95}
+      - {x: 87.5, y: -95}
+      - {x: 82.5, y: -100}
+      - {x: 82.5, y: -123}
+      - {x: 83.5, y: -134}
+      - {x: 105.5, y: -134}
+      - {x: 109.5, y: -132}
+      - {x: 109.5, y: -102}
+    - - {x: 152.5, y: -95}
+      - {x: 135.5, y: -95}
+      - {x: 130.5, y: -100}
+      - {x: 130.5, y: -123}
+      - {x: 131.5, y: -134}
+      - {x: 153.5, y: -134}
+      - {x: 157.5, y: -132}
+      - {x: 157.5, y: -102}
+    - - {x: 204.5, y: -108}
+      - {x: 172.5, y: -108}
+      - {x: 172.5, y: -134}
+      - {x: 206.5, y: -134}
+      - {x: 211.5, y: -128}
+      - {x: 211.5, y: -113}
+    - - {x: -104.5, y: -47}
+      - {x: -108.5, y: -50}
+      - {x: -108.5, y: -81}
+      - {x: -107.5, y: -86}
+      - {x: -85.5, y: -86}
+      - {x: -81.5, y: -85}
+      - {x: -81.5, y: -53}
+      - {x: -86.5, y: -47}
+    - - {x: -34.5, y: -47}
+      - {x: -54.5, y: -47}
+      - {x: -66.5, y: -52}
+      - {x: -66.5, y: -71}
+      - {x: -60.5, y: -85}
+      - {x: -55.5, y: -86}
+      - {x: -35.5, y: -86}
+      - {x: -33.5, y: -85}
+      - {x: -33.5, y: -48}
+    - - {x: -8.5, y: -47}
+      - {x: -13.5, y: -52}
+      - {x: -13.5, y: -71}
+      - {x: -11.5, y: -86}
+      - {x: 10.5, y: -86}
+      - {x: 14.5, y: -85}
+      - {x: 14.5, y: -51}
+      - {x: 8.5, y: -47}
+    - - {x: 34.5, y: -55}
+      - {x: 31.5, y: -67}
+      - {x: 31.5, y: -81}
+      - {x: 34.5, y: -86}
+      - {x: 62.5, y: -86}
+      - {x: 62.5, y: -52}
+      - {x: 55.5, y: -47}
+      - {x: 40.5, y: -47}
+    - - {x: 88.5, y: -47}
+      - {x: 83.5, y: -51}
+      - {x: 83.5, y: -80}
+      - {x: 84.5, y: -86}
+      - {x: 108.5, y: -86}
+      - {x: 110.5, y: -84}
+      - {x: 110.5, y: -51}
+      - {x: 103.5, y: -47}
+    - - {x: 136.5, y: -47}
+      - {x: 131.5, y: -51}
+      - {x: 131.5, y: -80}
+      - {x: 132.5, y: -86}
+      - {x: 156.5, y: -86}
+      - {x: 158.5, y: -84}
+      - {x: 158.5, y: -51}
+      - {x: 151.5, y: -47}
+    - - {x: 176.5, y: -60}
+      - {x: 172.5, y: -63}
+      - {x: 172.5, y: -81}
+      - {x: 174.5, y: -86}
+      - {x: 210.5, y: -86}
+      - {x: 211.5, y: -85}
+      - {x: 211.5, y: -61}
+      - {x: 210.5, y: -60}
+    - - {x: -206.5, y: -7}
+      - {x: -206.5, y: -38}
+      - {x: -177.5, y: -38}
+      - {x: -177.5, y: -5}
+      - {x: -185.5, y: 1}
+      - {x: -200.5, y: 1}
+    - - {x: -158.5, y: -6}
+      - {x: -158.5, y: -36}
+      - {x: -157.5, y: -38}
+      - {x: -137.5, y: -38}
+      - {x: -129.5, y: -36}
+      - {x: -129.5, y: -5}
+      - {x: -137.5, y: 1}
+      - {x: -152.5, y: 1}
+    - - {x: -104.5, y: 1}
+      - {x: -110.5, y: -2}
+      - {x: -110.5, y: -35}
+      - {x: -107.5, y: -38}
+      - {x: -83.5, y: -38}
+      - {x: -81.5, y: -33}
+      - {x: -81.5, y: -3}
+      - {x: -84.5, y: 1}
+    - - {x: 7.5, y: 1}
+      - {x: -10.5, y: 1}
+      - {x: -13.5, y: -5}
+      - {x: -13.5, y: -33}
+      - {x: -12.5, y: -38}
+      - {x: 13.5, y: -38}
+      - {x: 18.5, y: -29}
+      - {x: 18.5, y: -10}
+      - {x: 16.5, y: -6}
+    - - {x: 56.5, y: 1}
+      - {x: 39.5, y: 1}
+      - {x: 34.5, y: -3}
+      - {x: 34.5, y: -27}
+      - {x: 35.5, y: -38}
+      - {x: 63.5, y: -38}
+      - {x: 67.5, y: -34}
+      - {x: 67.5, y: -17}
+      - {x: 62.5, y: -7}
+    - - {x: 104.5, y: 1}
+      - {x: 87.5, y: 1}
+      - {x: 82.5, y: -5}
+      - {x: 82.5, y: -20}
+      - {x: 83.5, y: -35}
+      - {x: 84.5, y: -38}
+      - {x: 112.5, y: -38}
+      - {x: 113.5, y: -33}
+      - {x: 113.5, y: -18}
+      - {x: 110.5, y: -7}
+    - - {x: 153.5, y: 1}
+      - {x: 130.5, y: 1}
+      - {x: 130.5, y: -38}
+      - {x: 153.5, y: -38}
+      - {x: 157.5, y: -36}
+      - {x: 157.5, y: -5}
+    - - {x: 183.5, y: 2}
+      - {x: 177.5, y: 0}
+      - {x: 177.5, y: -33}
+      - {x: 179.5, y: -38}
+      - {x: 204.5, y: -38}
+      - {x: 204.5, y: 2}
+    - - {x: -203.5, y: 49}
+      - {x: -206.5, y: 45}
+      - {x: -206.5, y: 10}
+      - {x: -178.5, y: 10}
+      - {x: -178.5, y: 47}
+      - {x: -184.5, y: 49}
+    - - {x: -158.5, y: 49}
+      - {x: -160.5, y: 46}
+      - {x: -160.5, y: 10}
+      - {x: -135.5, y: 10}
+      - {x: -131.5, y: 11}
+      - {x: -131.5, y: 46}
+      - {x: -137.5, y: 49}
+    - - {x: -103.5, y: 50}
+      - {x: -109.5, y: 48}
+      - {x: -109.5, y: 11}
+      - {x: -106.5, y: 10}
+      - {x: -82.5, y: 10}
+      - {x: -81.5, y: 15}
+      - {x: -81.5, y: 48}
+      - {x: -83.5, y: 50}
+    - - {x: -59.5, y: 50}
+      - {x: -61.5, y: 49}
+      - {x: -61.5, y: 17}
+      - {x: -59.5, y: 10}
+      - {x: -39.5, y: 10}
+      - {x: -33.5, y: 19}
+      - {x: -33.5, y: 44}
+      - {x: -36.5, y: 50}
+    - - {x: 8.5, y: 49}
+      - {x: -7.5, y: 49}
+      - {x: -17.5, y: 37}
+      - {x: -17.5, y: 26}
+      - {x: -10.5, y: 10}
+      - {x: 10.5, y: 10}
+      - {x: 14.5, y: 11}
+      - {x: 14.5, y: 44}
+    - - {x: 59.5, y: 49}
+      - {x: 41.5, y: 49}
+      - {x: 29.5, y: 43}
+      - {x: 29.5, y: 17}
+      - {x: 34.5, y: 10}
+      - {x: 58.5, y: 10}
+      - {x: 62.5, y: 12}
+      - {x: 62.5, y: 45}
+    - - {x: 86.5, y: 49}
+      - {x: 80.5, y: 42}
+      - {x: 79.5, y: 31}
+      - {x: 79.5, y: 18}
+      - {x: 85.5, y: 10}
+      - {x: 106.5, y: 10}
+      - {x: 110.5, y: 11}
+      - {x: 110.5, y: 47}
+      - {x: 105.5, y: 49}
+    - - {x: 137.5, y: 49}
+      - {x: 131.5, y: 45}
+      - {x: 131.5, y: 12}
+      - {x: 132.5, y: 10}
+      - {x: 158.5, y: 10}
+      - {x: 158.5, y: 44}
+      - {x: 153.5, y: 49}
+    - - {x: 183.5, y: 50}
+      - {x: 180.5, y: 47}
+      - {x: 180.5, y: 10}
+      - {x: 206.5, y: 10}
+      - {x: 207.5, y: 13}
+      - {x: 207.5, y: 47}
+      - {x: 200.5, y: 50}
+    - - {x: -200.5, y: 97}
+      - {x: -205.5, y: 92}
+      - {x: -205.5, y: 68}
+      - {x: -204.5, y: 58}
+      - {x: -181.5, y: 58}
+      - {x: -178.5, y: 59}
+      - {x: -178.5, y: 93}
+      - {x: -185.5, y: 97}
+    - - {x: -155.5, y: 97}
+      - {x: -159.5, y: 90}
+      - {x: -160.5, y: 88}
+      - {x: -160.5, y: 61}
+      - {x: -159.5, y: 58}
+      - {x: -137.5, y: 58}
+      - {x: -128.5, y: 68}
+      - {x: -128.5, y: 94}
+      - {x: -135.5, y: 97}
+    - - {x: -108.5, y: 99}
+      - {x: -110.5, y: 94}
+      - {x: -110.5, y: 67}
+      - {x: -109.5, y: 63}
+      - {x: -102.5, y: 58}
+      - {x: -91.5, y: 58}
+      - {x: -82.5, y: 73}
+      - {x: -82.5, y: 97}
+      - {x: -84.5, y: 99}
+    - - {x: -56.5, y: 97}
+      - {x: -65.5, y: 91}
+      - {x: -65.5, y: 61}
+      - {x: -56.5, y: 59}
+      - {x: -51.5, y: 58}
+      - {x: -40.5, y: 58}
+      - {x: -34.5, y: 67}
+      - {x: -34.5, y: 93}
+      - {x: -41.5, y: 97}
+    - - {x: 158.5, y: 92}
+      - {x: 150.5, y: 99}
+      - {x: 129.5, y: 99}
+      - {x: 124.5, y: 89}
+      - {x: 124.5, y: 63}
+      - {x: 132.5, y: 58}
+      - {x: 143.5, y: 58}
+      - {x: 159.5, y: 61}
+      - {x: 162.5, y: 67}
+      - {x: 162.5, y: 81}
+    - - {x: 188.5, y: 84}
+      - {x: 176.5, y: 73}
+      - {x: 176.5, y: 62}
+      - {x: 178.5, y: 58}
+      - {x: 199.5, y: 58}
+      - {x: 210.5, y: 59}
+      - {x: 212.5, y: 65}
+      - {x: 212.5, y: 75}
+      - {x: 202.5, y: 84}
+    - - {x: 13.5, y: 95}
+      - {x: 3.5, y: 103}
+      - {x: -9.5, y: 103}
+      - {x: -16.5, y: 99}
+      - {x: -17.5, y: 93}
+      - {x: -17.5, y: 82}
+      - {x: -13.5, y: 72}
+      - {x: 1.5, y: 65}
+      - {x: 14.5, y: 65}
+      - {x: 21.5, y: 74}
+      - {x: 21.5, y: 77}
+      - {x: 19.5, y: 84}
+    - - {x: 87.5, y: 106}
+      - {x: 78.5, y: 102}
+      - {x: 78.5, y: 83}
+      - {x: 79.5, y: 76}
+      - {x: 88.5, y: 65}
+      - {x: 105.5, y: 65}
+      - {x: 112.5, y: 74}
+      - {x: 112.5, y: 88}
+      - {x: 103.5, y: 106}
+    - - {x: 64.5, y: 104}
+      - {x: 35.5, y: 104}
+      - {x: 29.5, y: 92}
+      - {x: 29.5, y: 73}
+      - {x: 31.5, y: 72}
+      - {x: 62.5, y: 72}
+      - {x: 65.5, y: 74}
+      - {x: 65.5, y: 103}
+    - - {x: -200.5, y: 145}
+      - {x: -204.5, y: 141}
+      - {x: -204.5, y: 112}
+      - {x: -203.5, y: 106}
+      - {x: -179.5, y: 106}
+      - {x: -177.5, y: 108}
+      - {x: -177.5, y: 139}
+      - {x: -182.5, y: 145}
+    - - {x: -136.5, y: 145}
+      - {x: -152.5, y: 145}
+      - {x: -159.5, y: 141}
+      - {x: -159.5, y: 110}
+      - {x: -152.5, y: 106}
+      - {x: -128.5, y: 106}
+      - {x: -127.5, y: 112}
+      - {x: -127.5, y: 134}
+      - {x: -128.5, y: 138}
+    - - {x: -104.5, y: 147}
+      - {x: -108.5, y: 145}
+      - {x: -108.5, y: 124}
+      - {x: -101.5, y: 106}
+      - {x: -86.5, y: 106}
+      - {x: -82.5, y: 108}
+      - {x: -80.5, y: 113}
+      - {x: -80.5, y: 138}
+      - {x: -83.5, y: 147}
+    - - {x: -38.5, y: 145}
+      - {x: -56.5, y: 145}
+      - {x: -60.5, y: 138}
+      - {x: -60.5, y: 117}
+      - {x: -54.5, y: 106}
+      - {x: -37.5, y: 106}
+      - {x: -29.5, y: 107}
+      - {x: -29.5, y: 127}
+      - {x: -32.5, y: 137}
+    - - {x: 162.5, y: 140}
+      - {x: 153.5, y: 147}
+      - {x: 137.5, y: 147}
+      - {x: 131.5, y: 140}
+      - {x: 126.5, y: 127}
+      - {x: 126.5, y: 115}
+      - {x: 128.5, y: 108}
+      - {x: 143.5, y: 106}
+      - {x: 155.5, y: 106}
+      - {x: 157.5, y: 108}
+      - {x: 164.5, y: 114}
+      - {x: 164.5, y: 130}
+    - - {x: 197.5, y: 132}
+      - {x: 175.5, y: 132}
+      - {x: 172.5, y: 129}
+      - {x: 172.5, y: 114}
+      - {x: 179.5, y: 106}
+      - {x: 207.5, y: 106}
+      - {x: 208.5, y: 110}
+      - {x: 208.5, y: 125}
+      - {x: 204.5, y: 130}
+    - - {x: 16.5, y: 151}
+      - {x: 1.5, y: 151}
+      - {x: -2.5, y: 150}
+      - {x: -16.5, y: 138}
+      - {x: -16.5, y: 119}
+      - {x: -14.5, y: 113}
+      - {x: 2.5, y: 113}
+      - {x: 7.5, y: 115}
+      - {x: 22.5, y: 133}
+      - {x: 22.5, y: 144}
+    - - {x: 110.5, y: 153}
+      - {x: 90.5, y: 153}
+      - {x: 79.5, y: 138}
+      - {x: 79.5, y: 117}
+      - {x: 89.5, y: 113}
+      - {x: 104.5, y: 113}
+      - {x: 109.5, y: 118}
+      - {x: 113.5, y: 139}
+      - {x: 113.5, y: 150}
+    - - {x: 56.5, y: 149}
+      - {x: 53.5, y: 152}
+      - {x: 31.5, y: 152}
+      - {x: 30.5, y: 148}
+      - {x: 30.5, y: 125}
+      - {x: 40.5, y: 120}
+      - {x: 62.5, y: 120}
+      - {x: 66.5, y: 126}
+      - {x: 66.5, y: 140}
+      - {x: 65.5, y: 141}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
