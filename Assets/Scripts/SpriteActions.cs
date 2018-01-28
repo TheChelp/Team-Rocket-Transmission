@@ -10,19 +10,19 @@ public class SpriteActions : MonoBehaviour
     public float Offset = 0;
 
     private int _dx, _dy;
-    private Light _flashLight;
+    private GameObject _flashLight;
     private Vector3 _rotationAngles;
 
 
     // Use this for initialization
     void Start () {
-        _flashLight = gameObject.GetComponentInChildren<Light>();
+        _flashLight = GameObject.Find("Flashlight");
         _rotationAngles = new Vector3();
 
         if (_flashLight != null)
             _rotationAngles = _flashLight.transform.eulerAngles;
 
-        if (Speed == 0)
+        if (Speed == 0.0f)
         {
             Debug.Log("<color=yellow> Warning: Speed is zero. Character will not move </color>");
         }
