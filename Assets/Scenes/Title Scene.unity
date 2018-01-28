@@ -187,7 +187,7 @@ GameObject:
   - component: {fileID: 527833533}
   - component: {fileID: 527833532}
   m_Layer: 5
-  m_Name: Button
+  m_Name: New Game
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -272,7 +272,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 51f284f74547245a6bfbcda4af8da219, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4e87cf419bb2c4546b04994074226c33, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -492,7 +492,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: f8fcce481b12a42c594baeed6452b93a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ecf4e514ed0a9437f818182dca494d10, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -768,7 +768,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5f23d76ea3d684cb8ba01cb8206ee1f6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f6f23ceb430c5444caed0358ff5d2673, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

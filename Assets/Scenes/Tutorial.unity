@@ -200,7 +200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 0.09
-  right: 1
+  right: 0
   left: 0
   down: 0
   up: 0
