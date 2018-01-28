@@ -41,7 +41,6 @@ public class SpriteActions : MonoBehaviour
 	        _dy++;
 	        if (FlashLight != null)
 	        {
-                Debug.Log("Flashlight Up!");
 	            FlashLight.transform.eulerAngles = new Vector3(-90, _rotationAngles.y, _rotationAngles.z);
                 FlashLight.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + Offset, FlashLight.transform.position.z);
             }
@@ -89,6 +88,5 @@ public class SpriteActions : MonoBehaviour
 	    _dy = 0;
 
 	}
-
 
 }
