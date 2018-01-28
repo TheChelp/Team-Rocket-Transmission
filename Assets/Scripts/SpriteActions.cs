@@ -1,4 +1,6 @@
-﻿﻿using UnityEngine;
+﻿﻿using System;
+ using System.Collections;
+ using UnityEngine;
 
 public class SpriteActions : MonoBehaviour
 {
@@ -11,47 +13,86 @@ public class SpriteActions : MonoBehaviour
     private Vector3 _rotationAngles;
     private Animator _animator;
     public GameObject wavePrefab;
+    public bool autoscript;
 
     // Use this for initialization
     void Start () {
         _rotationAngles = new Vector3();
         _animator = gameObject.GetComponent<Animator>();
 
-        if (FlashLight != null)
-            _rotationAngles = FlashLight.transform.eulerAngles;
 
-        if (Speed == 0.0f)
+        if (autoscript)
         {
-            Debug.Log("<color=yellow> Warning: Speed is zero. Character will not move </color>");
+            StartCoroutine(tutorialScript());
         }
+        else
+        {
+            if (FlashLight != null)
+                _rotationAngles = FlashLight.transform.eulerAngles;
 
-        if (FlashLight == null)
-        {
-            Debug.Log("Flashlight not found :(");
+            if (Speed == 0.0f)
+            {
+                Debug.Log("<color=yellow> Warning: Speed is zero. Character will not move </color>");
+            }
+
+            if (FlashLight == null)
+            {
+                Debug.Log("Flashlight not found :(");
+            }
         }
+        
     }
-	
+
+    public IEnumerator tutorialScript()
+    {
+        right = true;
+
+        yield return null;
+    }
 	// Update is called once per frame
+    private bool up, down, right, left;
 	void Update ()
 	{
-        if (Input.GetKey(KeyCode.W))
+	    if (!autoscript)
 	    {
-	        _dy++;
+	        if (Input.GetKey(KeyCode.W) )
+	        {
+	            _dy++;
+	        }
+	        if (Input.GetKey(KeyCode.S) )
+	        {
+	            _dy--;
+	        }
+	        if (Input.GetKey(KeyCode.A))
+	        {
+	            _dx--;
+	        }
+	        if (Input.GetKey(KeyCode.D))
+	        {
+	            _dx++;
+	        }
 	    }
-	    if (Input.GetKey(KeyCode.S))
+	    else
 	    {
-	        _dy--;
-	    }
-	    if (Input.GetKey(KeyCode.A))
-	    {
-	        _dx--;
-	    }
-	    if (Input.GetKey(KeyCode.D))
-	    {
-	        _dx++;
+            if (up)
+            {
+                _dy++;
+            }
+            if (down)
+            {
+                _dy--;
+            }
+            if (left)
+            {
+                _dx--;
+            }
+            if (right)
+            {
+                _dx++;
+            }
         }
 
-	    if (FlashLight != null)
+	    if (!autoscript && FlashLight != null)
 	    {
 	        Vector3 d =  Camera.main.ScreenToWorldPoint(Input.mousePosition) - gameObject.transform.position; 
 
