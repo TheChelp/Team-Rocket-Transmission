@@ -75,4 +75,6 @@ public class LifeIndicator : MonoBehaviour {
 		}
 
 	}
+
+
 }
