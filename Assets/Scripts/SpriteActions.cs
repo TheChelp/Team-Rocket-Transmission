@@ -43,6 +43,16 @@ public class SpriteActions : MonoBehaviour
         
     }
 
+    public void PausePlayer()
+    {
+        autoscript = true;
+    }
+    public void Unpause()
+    {
+        autoscript = false;
+        Debug.Log("Unpause");
+    }
+
     public IEnumerator tutorialScript()
     {
         right = true;
