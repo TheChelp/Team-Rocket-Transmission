@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 
 public class NPCAction : MonoBehaviour
 {
@@ -10,6 +11,20 @@ public class NPCAction : MonoBehaviour
     void Start()
     {
         _animator = gameObject.GetComponent<Animator>();
+        StartCoroutine(tutScript());
+    }
+
+    public IEnumerator tutScript()
+    {
+        right = true;
+        yield return new WaitForSeconds(9);
+        right = false;
+        yield return StartCoroutine(FallOver());
+    }
+
+    public IEnumerator FallOver()
+    {
+        yield return null;
     }
 
 

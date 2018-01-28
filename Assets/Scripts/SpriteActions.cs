@@ -47,7 +47,11 @@ public class SpriteActions : MonoBehaviour
     {
         right = true;
 
-        yield return null;
+        yield return new WaitForSeconds(9);
+        right = false;
+        autoscript = false;
+
+
     }
 	// Update is called once per frame
     private bool up, down, right, left;
