@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 7470cfccfae224442bc50f8ba4761e8d
+timeCreated: 1517093931
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: NeuzeitGroteskW01-Regular
+  fontNames:
+  - NeuzeitGroteskW01-Regular
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
