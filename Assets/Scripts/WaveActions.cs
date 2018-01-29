@@ -30,7 +30,6 @@ public class WaveActions : MonoBehaviour
 	        Destroy(gameObject.transform.GetChild(0).gameObject);
             gameObject.transform.DetachChildren();
             Destroy(gameObject);
-            Debug.Log("Killed myself");
 	    }
 	   
 	    gameObject.transform.position += Velocity * Time.deltaTime;

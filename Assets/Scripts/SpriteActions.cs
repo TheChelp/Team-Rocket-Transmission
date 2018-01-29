@@ -1,19 +1,20 @@
 ﻿﻿using System;
  using System.Collections;
  using UnityEngine;
+ using UnityEngine.SceneManagement;
 
 public class SpriteActions : MonoBehaviour
 {
 
     public float Speed;
     public float Offset = 0;
-
+    public int read = 0;
     private int _dx, _dy;
     public  GameObject FlashLight;
     private Vector3 _rotationAngles;
     private Animator _animator;
     public GameObject wavePrefab;
-    public bool autoscript;
+    public bool autoscript = false;
 
     // Use this for initialization
     void Start () {
@@ -51,6 +52,7 @@ public class SpriteActions : MonoBehaviour
     {
         autoscript = false;
         Debug.Log("Unpause");
+        read++;
     }
 
     public IEnumerator tutorialScript()
@@ -59,14 +61,27 @@ public class SpriteActions : MonoBehaviour
 
         yield return new WaitForSeconds(9);
         right = false;
-        autoscript = false;
+        
 
 
     }
-	// Update is called once per frame
+
+    public IEnumerator ToDoor()
+    {
+        left = true;
+        yield return new WaitForSeconds(4.8f);
+        left = false;
+        up = true;
+        yield return new WaitForSeconds(0.5f);
+        up = false;
+        yield return new WaitForSeconds(1.0f);
+        SceneManager.LoadScene("Scenes/Level2");
+    }
+    // Update is called once per frame
     private bool up, down, right, left;
 	void Update ()
 	{
+	    autoscript = false;
 	    if (!autoscript)
 	    {
 	        if (Input.GetKey(KeyCode.W) )

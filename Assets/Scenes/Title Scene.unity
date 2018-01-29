@@ -186,6 +186,7 @@ GameObject:
   - component: {fileID: 527833534}
   - component: {fileID: 527833533}
   - component: {fileID: 527833532}
+  - component: {fileID: 527833535}
   m_Layer: 5
   m_Name: New Game
   m_TagString: Untagged
@@ -286,6 +287,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 527833530}
+--- !u!114 &527833535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 527833530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f87bffbdd2d90b340a30bbe30ae0826d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mode: 1
+  btn: {fileID: 527833532}
 --- !u!1 &702727740
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,7 +451,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 725187507}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -485,7 +499,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.134}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -619,7 +633,7 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -681,6 +695,7 @@ GameObject:
   - component: {fileID: 1380904420}
   - component: {fileID: 1380904423}
   - component: {fileID: 1380904422}
+  - component: {fileID: 1380904424}
   - component: {fileID: 1380904421}
   m_Layer: 5
   m_Name: Exit
@@ -746,7 +761,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1380904422}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11500000, guid: f87bffbdd2d90b340a30bbe30ae0826d, type: 3}
+        m_MethodName: set_name
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: DoExitGame
+          m_BoolArgument: 0
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1380904422
@@ -782,6 +808,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1380904419}
+--- !u!114 &1380904424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1380904419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f87bffbdd2d90b340a30bbe30ae0826d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mode: 2
+  btn: {fileID: 1380904421}
 --- !u!1 &1666446893
 GameObject:
   m_ObjectHideFlags: 0

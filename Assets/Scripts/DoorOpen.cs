@@ -16,7 +16,7 @@ public class DoorOpen : MonoBehaviour
 
     public IEnumerator delayAndOpen()
     {
-        yield return new WaitForSeconds(11);
+        yield return new WaitForSeconds(14);
 
         if (animator)
         {

@@ -6,6 +6,7 @@ public class JournalResponse : MonoBehaviour
 {
 
     public GameObject Controller;
+    public int index;
 
     public GameObject Player;
 	// Use this for initialization
@@ -21,8 +22,8 @@ public class JournalResponse : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D other)
     { 
         Player.SendMessage("PausePlayer");
-        Controller.transform.GetChild(0).gameObject.SetActive(true);
-        Controller.transform.GetChild(1).gameObject.SetActive(false);
+        Controller.transform.GetChild(0).gameObject.SetActive(false);
+        Controller.transform.GetChild(index).gameObject.SetActive(false);
         
     }
 }
