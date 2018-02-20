@@ -548,7 +548,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!50 &285521254
 Rigidbody2D:
   serializedVersion: 4
@@ -940,6 +940,12 @@ Prefab:
     - target: {fileID: 114953950167523606, guid: 7628349a891ad264dbb3cbe184e623ff,
         type: 2}
       propertyPath: wavePrefab
+      value: 
+      objectReference: {fileID: 1326724228568506, guid: 735f4a5f1470e374dacf029d65a6f9ba,
+        type: 2}
+    - target: {fileID: 114953950167523606, guid: 7628349a891ad264dbb3cbe184e623ff,
+        type: 2}
+      propertyPath: WavePrefab
       value: 
       objectReference: {fileID: 1326724228568506, guid: 735f4a5f1470e374dacf029d65a6f9ba,
         type: 2}
@@ -14537,7 +14543,7 @@ Camera:
   field of view: 60
   orthographic: 1
   orthographic size: 5
-  m_Depth: -1
+  m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -14824,12 +14830,27 @@ Prefab:
     - target: {fileID: 223227243174333590, guid: 297e3609be103ad40965cf60b6e715db,
         type: 2}
       propertyPath: m_PlaneDistance
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 223227243174333590, guid: 297e3609be103ad40965cf60b6e715db,
         type: 2}
       propertyPath: m_RenderMode
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114402883735007894, guid: 297e3609be103ad40965cf60b6e715db,
+        type: 2}
+      propertyPath: m_UiScaleMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 223227243174333590, guid: 297e3609be103ad40965cf60b6e715db,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 223227243174333590, guid: 297e3609be103ad40965cf60b6e715db,
+        type: 2}
+      propertyPath: m_PixelPerfect
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 297e3609be103ad40965cf60b6e715db, type: 2}
@@ -16367,7 +16388,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!50 &1738113349
 Rigidbody2D:
   serializedVersion: 4
@@ -16502,7 +16523,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!50 &1820629044
 Rigidbody2D:
   serializedVersion: 4
@@ -16862,7 +16883,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1937943828
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16989,6 +17010,24 @@ Transform:
   m_PrefabParentObject: {fileID: 4550751539907388, guid: 7628349a891ad264dbb3cbe184e623ff,
     type: 2}
   m_PrefabInternal: {fileID: 369174782}
+--- !u!114 &2047053832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2047053830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d299ee7008e88d041aa98be47f64ce08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Player
+  UpCode: 119
+  DownCode: 115
+  LeftCode: 97
+  RightCode: 100
+  Speed: 6
+  EnableKeys: 1
 --- !u!1 &2107244414
 GameObject:
   m_ObjectHideFlags: 0
@@ -17007,7 +17046,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!50 &2107244415
 Rigidbody2D:
   serializedVersion: 4

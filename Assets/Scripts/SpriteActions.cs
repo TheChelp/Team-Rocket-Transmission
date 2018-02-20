@@ -1,161 +1,98 @@
-﻿﻿using System;
- using System.Collections;
- using UnityEngine;
- using UnityEngine.SceneManagement;
+﻿using System;
+using System.Collections;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SpriteActions : MonoBehaviour
 {
-
-    public float Speed;
     public float Offset = 0;
-    public int read = 0;
-    private int _dx, _dy;
-    public  GameObject FlashLight;
+    public GameObject FlashLight;
+    public GameObject WavePrefab;
+    public bool TutorialTrigger = false;
+
     private Vector3 _rotationAngles;
     private Animator _animator;
-    public GameObject wavePrefab;
-    public bool autoscript = false;
+    private SpriteMovement _moveScript;
+    
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
+        _moveScript = gameObject.GetComponent<SpriteMovement>();
+        if(_moveScript == null)
+            Debug.Log("<color=red> Error: Move script not attached to Player</color>");
         _rotationAngles = new Vector3();
         _animator = gameObject.GetComponent<Animator>();
 
 
-        if (autoscript)
+        if (FlashLight != null)
+            _rotationAngles = FlashLight.transform.eulerAngles;
+
+
+        if (FlashLight == null)
         {
-            StartCoroutine(tutorialScript());
+            Debug.Log("Flashlight not found :(");
         }
-        else
+
+        if (TutorialTrigger)
         {
-            if (FlashLight != null)
-                _rotationAngles = FlashLight.transform.eulerAngles;
-
-            if (Speed == 0.0f)
-            {
-                Debug.Log("<color=yellow> Warning: Speed is zero. Character will not move </color>");
-            }
-
-            if (FlashLight == null)
-            {
-                Debug.Log("Flashlight not found :(");
-            }
+            StartCoroutine(TutorialScript());
         }
-        
     }
 
-    public void PausePlayer()
+    public IEnumerator TutorialScript()
     {
-        autoscript = true;
-    }
-    public void Unpause()
-    {
-        autoscript = false;
-        Debug.Log("Unpause");
-        read++;
-    }
+        float timer = 9.0f;
 
-    public IEnumerator tutorialScript()
-    {
-        right = true;
-
-        yield return new WaitForSeconds(9);
-        right = false;
-        
-
-
+        yield return _moveScript.MoveFor(SpriteMovement.Direction.RIGHT, 9.0f);
+        yield return new WaitForSeconds(4);
+        yield return _moveScript.MoveFor(SpriteMovement.Direction.LEFT, 4.1f);
+        yield return _moveScript.MoveFor(SpriteMovement.Direction.UP, 0.5f);
     }
 
     public IEnumerator ToDoor()
     {
-        left = true;
-        yield return new WaitForSeconds(4.8f);
-        left = false;
-        up = true;
-        yield return new WaitForSeconds(0.5f);
-        up = false;
-        yield return new WaitForSeconds(1.0f);
-        SceneManager.LoadScene("Scenes/Level2");
+        //        left = true;
+        //        yield return new WaitForSeconds(4.8f);
+        //        left = false;
+        //        up = true;
+        //        yield return new WaitForSeconds(0.5f);
+        //        up = false;
+        //        yield return new WaitForSeconds(1.0f);
+        //        SceneManager.LoadScene("Scenes/Level2");
+        return null;
     }
-    // Update is called once per frame
-    private bool up, down, right, left;
-	void Update ()
-	{
-	    autoscript = false;
-	    if (!autoscript)
-	    {
-	        if (Input.GetKey(KeyCode.W) )
-	        {
-	            _dy++;
-	        }
-	        if (Input.GetKey(KeyCode.S) )
-	        {
-	            _dy--;
-	        }
-	        if (Input.GetKey(KeyCode.A))
-	        {
-	            _dx--;
-	        }
-	        if (Input.GetKey(KeyCode.D))
-	        {
-	            _dx++;
-	        }
-	    }
-	    else
-	    {
-            if (up)
-            {
-                _dy++;
-            }
-            if (down)
-            {
-                _dy--;
-            }
-            if (left)
-            {
-                _dx--;
-            }
-            if (right)
-            {
-                _dx++;
-            }
-        }
 
-	    if (!autoscript && FlashLight != null)
-	    {
-	        Vector3 d =  Camera.main.ScreenToWorldPoint(Input.mousePosition) - gameObject.transform.position; 
+    void Update()
+    {
+        if (FlashLight != null)
+        {
+            Vector3 d = Camera.main.ScreenToWorldPoint(Input.mousePosition) - gameObject.transform.position;
 
-            Vector2 dist = new Vector2(d.x,d.y);
+            Vector2 dist = new Vector2(d.x, d.y);
             dist.Normalize();
-	        float angle = Mathf.Rad2Deg * -Mathf.Atan2(dist.y,dist.x);
-            FlashLight.transform.eulerAngles = new Vector3(angle,90,0);
+            float angle = Mathf.Rad2Deg * -Mathf.Atan2(dist.y, dist.x);
+            FlashLight.transform.eulerAngles = new Vector3(angle, 90, 0);
 
             if (Input.GetMouseButtonDown(0))
             {
-                GameObject wave = Instantiate(wavePrefab);
+                GameObject wave = Instantiate(WavePrefab);
                 wave.name = "Wave";
-                wave.GetComponent<WaveActions>().Velocity = new Vector3(dist.x,dist.y,0);
+                wave.GetComponent<WaveActions>().Velocity = new Vector3(dist.x, dist.y, 0);
                 wave.GetComponent<WaveActions>().transform.eulerAngles = new Vector3(0, 0, -angle);
-                wave.GetComponent<WaveActions>().transform.position += new Vector3(gameObject.transform.position.x + 1.5f * dist.x, gameObject.transform.position.y + 1.5f * dist.y,0);
-                wave.GetComponent<WaveActions>().transform.localScale = new Vector3(0.25f,0.25f,0.25f); 
-
+                wave.GetComponent<WaveActions>().transform.position +=
+                    new Vector3(gameObject.transform.position.x + 1.5f * dist.x,
+                        gameObject.transform.position.y + 1.5f * dist.y, 0);
+                wave.GetComponent<WaveActions>().transform.localScale = new Vector3(0.25f, 0.25f, 0.25f);
             }
-
         }
 
-	    float velocityX = _dx * Speed;
-	    float velocityY = _dy * Speed;
-
+        
 	    if (_animator != null)
 	    {
-	        _animator.SetFloat("velocityX", velocityX);
-            _animator.SetFloat("velocityY", velocityY);
+	        _animator.SetFloat("velocityX", _moveScript.GetVelX());
+            _animator.SetFloat("velocityY", _moveScript.GetVelY());
 	    }
-
-        gameObject.transform.position += new Vector3(velocityX,velocityY ,0);
-	    _dx = 0;
-	    _dy = 0;
-
-	}
-
+        
+    }
 }

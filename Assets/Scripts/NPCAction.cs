@@ -4,21 +4,23 @@ using System.Collections;
 public class NPCAction : MonoBehaviour
 {
     private Animator _animator;
-    private float _dx, _dy;
-    public float Speed;
     public GameObject Player;
+
+    private SpriteMovement _moveScript;
     // Use this for initialization
     void Start()
     {
         _animator = gameObject.GetComponent<Animator>();
+        _moveScript = gameObject.GetComponent<SpriteMovement>();
+        if (_moveScript == null)
+            Debug.Log("<color=red> Error: Move script not attached to NPC</color>");
+
         StartCoroutine(tutScript());
     }
 
     public IEnumerator tutScript()
     {
-        right = true;
-        yield return new WaitForSeconds(9);
-        right = false;
+        yield return _moveScript.MoveFor(SpriteMovement.Direction.RIGHT, 9.0f);
         yield return StartCoroutine(FallOver());
         yield return StartCoroutine(Bleed());
         yield return StartCoroutine(Fade());
@@ -72,40 +74,14 @@ public class NPCAction : MonoBehaviour
     }
 
 
-    public bool right, left, down, up;
     // Update is called once per frame
     void Update()
     {
-        if (up)
-        {
-            _dy++;
-        }
-        if (down)
-        {
-            _dy--;
-        }
-        if (left)
-        {
-            _dx--;
-        }
-        if (right)
-        {
-            _dx++;
-        }
-
-        float velocityX = _dx * Speed;
-        float velocityY = _dy * Speed;
-
         if (_animator != null)
         {
-            _animator.SetFloat("velocityX", velocityX);
-            _animator.SetFloat("velocityY", velocityY);
+            _animator.SetFloat("velocityX", _moveScript.GetVelX());
+            _animator.SetFloat("velocityY", _moveScript.GetVelY());
         }
-
-        gameObject.transform.position += new Vector3(velocityX, velocityY, 0);
-        _dx = 0;
-        _dy = 0;
-
     }
 
 }
